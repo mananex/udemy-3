@@ -4,6 +4,18 @@
             align-items: center;
         }
     }
+    .consultation {
+        .title_left {
+            text-align: center;
+        }
+        .consultation__descr {
+            margin: 0 auto;
+        }
+        .feed-form {
+            margin: 0 auto;
+            margin-top: 36px;
+        }
+    }
 }
 @media (max-width: 767px) {
     .promo {  
@@ -48,5 +60,16 @@
     }
     .advantages {
         min-width: none;
+    }
+    .consultation {
+        .title_left {
+            font-size: 20px;
+        }
+        .consultation__descr {
+            width: 266px;
+            font-weight: 300;
+            font-size: 15px;
+            text-align: center;
+        }
     }
 }

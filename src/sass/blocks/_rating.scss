@@ -1,0 +1,41 @@
+.rating {
+    min-height: 920px;
+    .users {
+        display: flex;
+        flex-direction: column;
+        .user {
+            margin-top: 60px;
+            display: flex;
+            vertical-align: top;
+            &__image {
+                max-width: 170px;
+                max-height: 170px;
+            }
+            &__info {
+                display: flex;
+                flex-direction: column;
+                margin-left: 60px;
+            }
+            &__name {
+                color: #0D0D0D;
+                font-weight: 700;
+                font-size: 18px;
+            }
+            &__marathones {
+                color: #646464;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 22px;
+            }
+            &__message {
+                color: #0D0D0D;
+                font-weight: 300;
+                font-size: 16px;
+                margin-top: 10px;
+                div {
+                    
+                }
+            }
+        }
+    }
+}

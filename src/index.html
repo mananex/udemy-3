@@ -90,10 +90,10 @@
                 Просто заполните форму заявки 
                 и мы перезвоним вам в течении 10 минут
             </div>
-            <form class="feed-form"action="#">
-                <input required placeholder="Ваше Имя" type="text">
-                <input required placeholder="Ваш Телефон" type="number">
-                <input required placeholder="Ваш E-mail" type="email">
+            <form class="feed-form" id="consultation-form" action="#">
+                <input name="name" required placeholder="Ваше имя" type="text"> 
+                <input name="phone" required placeholder="Ваш телефон"> 
+                <input name="email" required placeholder="Ваш E-mail" type="email"> 
                 <button class="button button_submit">заказать консультацию</button>
             </form>
         </div>
@@ -400,9 +400,9 @@
             <div class="modal__subtitle">Ваш заказ</div>
             <div class="modal__descr">Пульсометр Polar FT1</div>
             <form class="feed-form feed-form_mt25" action="#">
-                <input required placeholder="Ваше Имя" type="text">
-                <input required placeholder="Ваш Телефон" type="number">
-                <input required placeholder="Ваш E-mail" type="email">
+                <input placeholder="Ваше Имя" name="name">
+                <input placeholder="Ваш Телефон" name="phone">
+                <input placeholder="Ваш E-mail" name="email">
                 <button class="button button_submit">купить</button>
             </form>
         </div>
@@ -411,9 +411,9 @@
             <div class="modal__subtitle">Просто заполните форму заявки</div>
             <div class="modal__descr">и мы перезвоним вам в течении 10 минут</div>
             <form class="feed-form feed-form_mt25" action="#">
-                <input required placeholder="Ваше Имя" type="text">
-                <input required placeholder="Ваш Телефон" type="number">
-                <input required placeholder="Ваш E-mail" type="email">
+                <input name="name" required placeholder="Ваше имя" type="text"> 
+                <input name="phone" required placeholder="Ваш телефон"> 
+                <input name="email" required placeholder="Ваш E-mail" type="email"> 
                 <button class="button button_submit">заказать консультацию</button>
             </form>
         </div>
@@ -423,9 +423,10 @@
             <div class="modal__descr">Наш менеджер свяжется с вами в ближайшее время!</div>
         </div>
     </div>
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
